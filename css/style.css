@@ -13,12 +13,12 @@ p {
 }
 
 .main {
-    width: 50vw;
-    height: 4000px;
     background-color: #2C3948;
     display: block;
-    margin: 200px auto 0 auto;
+    margin-top: 200px;
     box-shadow: 20px 20px 50px rgb(0, 0, 0);
+    position: absolute;
+    width: 500px;
 }
 
 .main_1 {
@@ -42,12 +42,12 @@ p {
 
 .main_1_a {
     width: 90%;
-    height: 400px;
     background-color: rgba(79, 93, 103, 0.7);
     position: absolute;
     left: 20%;
     top: 50%;
-    padding: 80px;
+    padding: 10px;
+    padding-top: 80px;
     box-shadow: 10px 10px 40px rgb(0, 0, 0);
 }
 
@@ -65,7 +65,7 @@ p {
     color: white;
     word-spacing: 5px;
     line-height: 30px;
-    width: 90%;
+    width: 100%;
 }
 
 .main_2 {
@@ -79,11 +79,11 @@ p {
 }
 
 .main_2 .main_2_a {
-    width: 90%;
+    width: 100%;
     height: 400px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: -80px;
+    left: -60px;
     top: -20px;
     box-shadow: 10px 10px 60px rgb(0, 0, 0);
 }
@@ -221,6 +221,7 @@ p {
 .main_4 .main_4_a .main_4_a_text {
     width: 50%;
     padding: 10px;
+    background-color: white;
 }
 
 .main_4 .main_4_a .main_4_a_text .text_1 {
@@ -265,6 +266,9 @@ p {
     top: -30px;
     box-shadow: 20px 10px 60px rgb(0, 0, 0);
 }
+
+
+/**/
 
 .main_5 {
     width: 130%;
@@ -311,7 +315,7 @@ p {
     text-align: center;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
     margin: 10px;
-    background-color: rgb(69, 124, 195);
+    background-color: rgb(69, 187, 195);
     line-height: 25px;
     font-weight: 700;
     border-top: 1px solid rgb(156, 155, 155);
@@ -326,4 +330,114 @@ p {
     transform: translateX(50%);
     text-align: center;
     border-top: 1px solid rgb(156, 155, 155);
+}
+
+@media only screen and (max-width: 700px) {
+    .main_1 h1 {
+        font-size: 100px;
+        left: 50%;
+        transform: translateX(-40%);
+        top: 100px;
+        letter-spacing: 20px;
+    }
+    .main_1_a {
+        width: 95%;
+        background-color: rgba(79, 93, 103, 0.7);
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        padding: 20px;
+        padding-top: 80px;
+        box-shadow: 10px 10px 40px rgb(0, 0, 0);
+    }
+    .main_2 {
+        padding: 10px;
+        width: 400px;
+        transform: translateX(-55%);
+    }
+    .main_2 .main_2_a {
+        width: 100%;
+        left: -150px;
+    }
+    .main_2 .main_2_a .main_2_a_text {
+        width: 70%;
+    }
+    .main_2 .main_2_a .main_2_a_text .text_2 {
+        font-size: 30px;
+        line-height: 25px;
+        font-weight: 700;
+        color: white;
+        border-top: 1px solid rgb(156, 155, 155);
+        border-bottom: 1px solid rgb(156, 155, 155);
+    }
+    .main_2 .main_2_a .main_2_a_text .text_3 {
+        padding: 15px 1px;
+        color: #6C7B87;
+        width: 100%;
+        transform: translateX(10%);
+    }
+    .main_2 .main_2_a img {
+        width: 100%;
+        right: -75%;
+        top: 100px;
+    }
+    .main_3 {
+        width: 600px;
+        height: 500px;
+        background-color: #C34B45;
+        margin-top: 250px;
+    }
+    .main_3 img {
+        width: 650px;
+        left: 100px;
+        top: -100px;
+    }
+    .main_3 .main_3_text {
+        width: 80%;
+        padding: 10px;
+        top: 60%;
+    }
+    .main_4 {
+        width: 600px;
+        height: 500px;
+        margin-top: 350px;
+        transform: translateX(-55%);
+    }
+    .main_4 .main_4_a {
+        width: 450px;
+        height: 400px;
+        left: 80px;
+    }
+    .main_4 .main_4_a .main_4_a_text {
+        width: 95%;
+        padding: 10px;
+        position: absolute;
+        background-color: white;
+        z-index: 333;
+        top: 250px;
+    }
+    .main_4 .main_4_a img {
+        height: 450px;
+        position: absolute;
+        left: 10%;
+        top: -30px;
+    }
+    .main_5 {
+        width: 600px;
+        height: 500px;
+        background-color: #C34B45;
+        margin-top: 250px;
+    }
+    .main_5 img {
+        width: 450px;
+        height: 300px;
+        left: 10px;
+        top: 250px;
+    }
+    .main_5 .main_5_text {
+        width: 80%;
+        padding: 10px;
+        top: -10%;
+        left: 200px;
+    }
 }
