@@ -15,7 +15,7 @@ p {
 .main {
     background-color: #2C3948;
     display: block;
-    margin: 200px auto;
+    margin: 0 auto;
     box-shadow: 20px 20px 50px rgb(0, 0, 0);
     width: 500px;
 }
@@ -71,9 +71,9 @@ p {
     width: 130%;
     height: 500px;
     background-color: rgb(243, 208, 52);
-    margin: 200px;
     transform: translateX(-50%);
     position: relative;
+    margin-top: 250px;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
 }
 
@@ -139,7 +139,6 @@ p {
     width: 130%;
     height: 500px;
     background-color: #C34B45;
-    margin: 10px 100px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
@@ -200,8 +199,8 @@ p {
 .main_4 {
     width: 130%;
     height: 500px;
+    margin-top: 150px;
     background-color: rgb(52, 139, 2);
-    margin: 350px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
@@ -276,7 +275,6 @@ p {
     width: 130%;
     height: 500px;
     background-color: rgb(69, 124, 195);
-    margin: 50px 200px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
