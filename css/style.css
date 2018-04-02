@@ -15,9 +15,8 @@ p {
 .main {
     background-color: #2C3948;
     display: block;
-    margin-top: 200px;
+    margin: 200px auto;
     box-shadow: 20px 20px 50px rgb(0, 0, 0);
-    position: absolute;
     width: 500px;
 }
 
@@ -36,7 +35,7 @@ p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 140px;
+    top: 40px;
     letter-spacing: 30px;
 }
 
@@ -72,7 +71,7 @@ p {
     width: 130%;
     height: 500px;
     background-color: rgb(243, 208, 52);
-    margin: 350px;
+    margin: 200px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
@@ -140,7 +139,7 @@ p {
     width: 130%;
     height: 500px;
     background-color: #C34B45;
-    margin: 350px;
+    margin: 10px 100px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
@@ -222,6 +221,9 @@ p {
     width: 50%;
     padding: 10px;
     background-color: white;
+    position: absolute;
+    z-index: 22;
+    ;
 }
 
 .main_4 .main_4_a .main_4_a_text .text_1 {
@@ -274,14 +276,15 @@ p {
     width: 130%;
     height: 500px;
     background-color: rgb(69, 124, 195);
-    margin: 350px;
+    margin: 50px 200px;
     transform: translateX(-50%);
     position: relative;
     box-shadow: 20px 20px 40px rgb(0, 0, 0);
 }
 
 .main_5 img {
-    height: 500px;
+    height: 300px;
+    width: 400px;
     position: absolute;
     left: 250px;
     top: 100px;
@@ -310,7 +313,7 @@ p {
 }
 
 .main_5 .main_5_text .text_2 {
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(172, 204, 246);
     text-align: center;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
